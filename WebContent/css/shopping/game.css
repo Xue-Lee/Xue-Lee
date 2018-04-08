@@ -1,0 +1,172 @@
+.shop-game-content{
+	width: 100%;
+	height: auto;
+	padding-top: 129px;
+	background-color: #fafafa;
+}
+.game-nav-div{
+	width: 100%;
+	height: 44px;
+	background-color: #f5f5f5;
+}
+.game-nav{
+	width: 1260px;
+	height: 44px;
+	margin: 0 auto;
+	font-size: 12px;	
+	color: #666666;
+	line-height: 44px;
+	padding-left: 20px;
+}
+.game-nav a{
+	color: #666666;
+	padding-right: 3px;
+}
+.game-nav a:hover{
+	color: #FF0000;
+}
+.game-product{
+	width: 1260px;
+	height: auto;
+	margin: 0 auto;
+	/*background-color: #658CDF;*/
+}
+.sequence-div{
+	width: 1260px;
+	height: 60px;
+
+}
+.sequence{
+	float: right;
+}
+.sequence a{
+	display: block;
+	float: left;
+	height: 20px;
+	font-size: 14px;
+	color: #474747;
+	line-height: 20px;
+	padding: 0 30px 0 30px;
+	border-right: 1px solid #dddddd;
+	margin-top: 20px;
+}
+.sequence a:hover{
+	color: #FF0000;
+}
+.sequence a:hover .icon-up{
+	color: #FF0000;
+}
+.game-ul{
+	margin-left: 15px;
+	overflow: hidden;
+}
+.game-li{
+	float: left;
+	width: 287px;
+	height: 385px;
+	margin: 0 14px 14px 0;
+	background-color: white;
+	transition: 0.5s;
+	position: relative;
+	overflow: hidden;
+}
+.game-li:hover{
+	transform: translate(0,-2px);
+	box-shadow: 0 2px 5px #B0B0B0;
+}
+
+.li-top{
+	width: 287px;
+	height: 52px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.li-top p{
+	float: left;
+	width: 52px;
+	height: 52px;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	line-height: 52px;
+	border-radius: 52px;
+	margin-left: 20px;
+	background-color: #a8a8a8;	
+}
+.li-top .discount{
+	background-color: #ff5353;
+}
+.li-top .discount span{
+	font-size: 12px;
+}
+.li-top a{
+	display: block;
+	float: right;
+	color: #999999;
+	padding: 0 10px;
+	height: 26px;
+	line-height: 26px;
+}
+.li-top a:hover{
+	color: #e90404;
+}
+.li-top a:hover .icon-likefill1{
+	color: #e90404;
+}
+.game-li-img{
+	width: 210px;
+	margin-left: 38px;
+}
+.game-li h4{
+	color: #474747;
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 15px;
+	text-align: center;
+}
+.game-li h5{
+	color: #e90404;
+	font-size: 18px;
+    font-weight: 400;
+	margin-top: 10px;
+	text-align: center;
+}
+.add-cart-div{
+	position: absolute;
+	width: 287px;
+	height: 90px;
+	/*background: url(../img/rgba.png);*/
+	background-color: black;
+	opacity: 0.8;
+	left: 0;
+	top: 385px;
+	transition: 0.5s;
+}
+.add-star{
+	display: block;
+	/*margin-top: 20px;*/
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+.add-cart-div p{
+	margin: 0 auto 0;
+	padding: 12px 0 12px;
+	font-size: 16px;
+	color: white;
+	width: 220px;
+	/*height: 40px;*/
+	line-height: 16px;
+	text-align: center;
+	border: 1px solid white;	
+}
+.add-cart-div p:hover{
+	background-color: #e90404;
+	border: 1px solid #e90404;	
+}
+.add-cart-div p:hover .icon-gouwuche{
+	color: white;
+}
+.game-li:hover .add-cart-div{
+	transform: translate(0,-90px);
+}

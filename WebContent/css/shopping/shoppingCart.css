@@ -1,0 +1,171 @@
+.shoppingCartBox{
+	/*width: 1920px;
+	/*height: 1000px;*/
+	margin: 0 auto;*/
+	/*background-color: #658CDF;*/
+}
+.shoppingCart{
+	width: 1260px;
+	height: 1000px;
+	margin: 0 auto;
+	/*background-color: #658CDF;*/
+}
+table{
+	margin-left: 10px;
+	background-color: white;
+}
+.shoppingCart td{
+	border-bottom: 1px solid #ededed;
+}
+.state{
+	width: 111px;
+	height: 54px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 14px;
+	color: #666666;
+
+}
+.name{
+	width: 628px;
+	height: 54px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 14px;
+	color: #666666;
+	
+}
+.num{	
+	width: 200px;
+	height: 54px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 14px;
+	color: #666666;
+	
+}
+.prices,.operation{
+	width: 150px;
+	height: 54px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 14px;
+	color: #666666;
+	
+}
+
+.productImg{
+	float: left;
+	margin-right: 15px;
+	border: 1px solid #dddddd;
+}
+/*.productDesc{
+	margin-left: 10px;
+}*/
+.productDesc h4{
+	display: block;
+	color: #424242;
+	font-size: 14px;
+	font-weight: normal;
+	height: 18px;
+	line-height: 18px;
+	margin-bottom: 12px;
+}
+.productDesc h4:hover{
+	color: #e90404;
+}
+.productDesc h5{
+	display: block;
+	width: 400px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+	overflow: hidden;
+	text-overflow: ellipsis ;
+	white-space: nowrap;
+}
+.productDesc p{
+	display: block;
+	color: #999999;
+	font-size: 12px;
+	font-weight: normal;
+	height: 18px;
+	line-height: 18px;
+	margin-top: 12px;
+}
+.product{
+	margin: 29px 0 29px 0;
+}
+.product-number{	
+	display: inline-block;
+	/*width: 32px;*/
+	border: 1px solid #dddddd;
+}
+
+.product-numbe span:hover{
+	
+}
+.product-number input{
+	width: 32px;
+	outline: none;
+	border: 0;
+	text-align: center;
+}
+.prices span{
+	font-size: 20px;
+	color: #e90404;
+}
+.num p{
+	font-size: 12px;
+	color: #999999;
+	margin-top: 10px;
+}
+
+.total{
+	width: 1239px;
+	height: 90px;
+	background-color: white;
+	margin-top: 5px;
+	margin-left: 10px;
+	overflow: hidden;
+}
+.total-left{
+	float: left;
+	width: 300px;
+	height: 90px;
+	margin-left: 40px;
+}
+.total-left span{
+	line-height: 90px;
+}
+.total-left a{
+	
+	font-size: 12px;
+	color: #666666;
+	
+	line-height: 90px;
+	margin: 30px 20px 0;
+}
+.total-right{
+	float: right;
+	height: 90px;
+	margin-right: 40px;
+}
+.total-right input{
+	float: right;
+	width: 188px;
+	height: 50px;
+	margin-top: 20px;
+	font-size: 20px;
+	color: #ccc;
+	background-color: #ebebeb;
+	border: 0;
+}
+.total-right p{
+	display: block;
+	float: right;
+	margin-right: 30px;
+	line-height: 90px;
+}
